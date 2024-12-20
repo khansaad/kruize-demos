@@ -172,7 +172,7 @@ function monitoring_demo_start() {
 	start_time=$(get_date)
 
 	if [[ ${demo_monitoring_setup} -eq 1 ]]; then
-#		clone_repos autotune
+		clone_repos autotune
 		monitoring_demo_setup
 	fi
 
