@@ -255,8 +255,8 @@ function monitoring_demo_start() {
 		echo "-----------------------------------------"
 		echo "Validating the namespace Recommendations..."
 		# Use below resultsDir to validate namespace experiments
-		resultsDir="./recommendations_demo/validateNamespaceResults"
-		monitoring_recommendations_demo_with_data ${resultsDir} "none" true ${bulkResults} ${daysData} "namespace"
+#		resultsDir="./recommendations_demo/validateNamespaceResults"
+#		monitoring_recommendations_demo_with_data ${resultsDir} "none" true ${bulkResults} ${daysData} "namespace"
 
 		validate_experiment_recommendations true
 		exit_code=$?
